@@ -2,7 +2,7 @@ import uvicorn
 
 from fastapi import FastAPI
 
-from db_queries import db_init_table, db_get_products, db_get_categories, db_get_product_to_category
+from .db_queries import db_init_table, db_get_products, db_get_categories, db_get_product_to_category
 
 
 app = FastAPI()
